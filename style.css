@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.take{
+    background-color: #1CE783;
+    height: 10vh;
+}
+#take{
+    display: flex;
+    padding: 15px 120px;
+    font-size: 18px;
+}
+#limi{
+    transform: translate(560px,-35px);
+    font-size: 12px;
+}
+#hul{
+    background-image: url(Images/original.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+#hulu-logo{
+    height: 20px;
+    margin: 30px 40px;
+}
+#btn{
+    margin-left: 1100px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #323843
+}
+#pos{
+    margin: 100px 320px;
+}
+#dis{
+    color: #1CE783;
+    font-size: 12px;
+    /* padding: 30px 60px; */
+    margin: 20px 50px;
+}
+#duo{
+    width: 200px;
+    height: 50px;
+    margin: 0px 50px;
+}
+#du{
+    margin: 10px 60px;
+}
+#bg{
+    background-color: #1CE783;
+    width: 320px;
+}
+#trio{
+    width: 280px;
+    height: 50px;
+    margin: 0px 20px;
+}
+#tr{
+    margin: 10px 75px;
+}
+#terms{
+    margin: 0px 620px;
+}
+#sign{
+    margin: 0px 580px;
+    font-size: 17px;
+}
+#inc{
+    width: 100%;
+    height: 230vh;
+    border: 1px solid black;
+    background-color: #0B0C0F;
+}
+#inc #incl{
+    color: #1CE783;
+    margin-top: 100px;
+}
+#inc h1{
+    color: white;
+    font-size: 50px;
+}
+#inc #wat{
+    color: white;
+}
+small{
+    font-size: 1px;
+    margin-top:5px;
+}
+#sam{
+    margin: 40px;
+    gap: 35px;
+}
+#tv{
+    height: 64vh;
+    width: 22%;
+    background-image: url(Images/Tv\ shows.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#tv:hover{
+    border: 4px solid #797D84;
+    background-image: url(Images/Tv\ shows.png) linear-gradient(to bottom, rgba(7, 9,77,0.9));
+
+}
+#movies{
+    width: 22%;
+    background-image: url(Images/Movies.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#movies:hover{
+    border: 4px solid #797D84;
+}
+#ori{
+    width: 22%;
+    background-image: url(Images/Hulu\ original.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#ori:hover{
+    border: 4px solid #797D84;
+    background: linear-gradient(rgba(20,47,45,0.02
+    04,));
+}
+#prem{
+    width: 22%;
+    background-image: url(Images/Premium.png);
+    background-size: contain;
+    border-radius: 20px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+#prem:hover{
+    border: 4px solid #797D84;
+    filter: brightness(10px);
+}
+#Live{
+    font-weight: 700;
+    font-size: 60px;
+}
+#ege{
+    color: #1CE783;
+}
+#for{
+    background-color: #1CE783;
+    margin-left: 570px;
+}
+#live{
+    background-image: url(Images/live.jpeg);
+    width: 100%;
+    height: 200vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#los{
+    padding-left: 230px;
+    padding-top: 150px;
+}
+#border{
+    border-bottom: 3px solid white;
+}
+#livesport{
+    display: flex;
+    gap: 20px;
+    font-size: medium;
+}
+#circle{
+
+}
+#cbs{
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+}
+#espn{
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+}
+#nf1{
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;  
+}
+#fs1{
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;  
+}
+#select{
+    width: 100%;
+    height: 200vh;
+    background-color: #0B0C0F;;
+    margin-top: -500px;
+}
+#syp{
+    font-size: 45px;
+}
+#baseplans{
+display: flex;
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+gap: 20px;
+padding: 20px 50px;
+margin-left: 200px;
+margin-right: 200px;
+position: sticky;
+top: 0;
+background-color: #0B0C0F;
+}
+#flexSwithchCheckDefault{
+    width: 50px;
+    height: 30px;
+}
+#mostpopular{
+background-color: #1CE783;
+border-radius: 40px;
+margin-left: 40px;
+}
+#prizes{
+    border-bottom: 1px solid white;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+}
+#check{
+    margin-left: 220px;
+    margin-right: 50px;
+}
+#check1{
+    margin-left: 245px;
+    margin-right: 50px;
+}
+#check2{
+    margin-left: 245px;
+    margin-right: 50px;
+}
+#check3{
+    margin-left: 200px;
+    margin-right: 50px;
+}
+#check4{
+    margin-left: 375px;
+    margin-right: 50px;
+}
+#check5{
+    margin-left: 255px;
+    margin-right: 50px;
+}
+#small{
+    font-size: 12px;
+}
+#monthlyprize{
+    margin-left: 400px;
+}
+#show{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#dropdownarrow{
+    transform: translate(535px,-29px);
+}
+#browse{
+    background-color: #E8EAED;
+    width: 100%;
+    height: 60vh;
+}
+#social{
+    display: flex;
+    gap: 70px;
+    padding: 6px;
+    border-bottom: 1px solid #D9DCE2; 
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 50px;
+}
+#facebook{      
+    padding: 20px 120px;
+}
+#llc{
+    padding: 0px 120px;
+    gap: 35px;
+    display: flex;
+    font-size: x-small;
+}
+@media screen {
+    
+}

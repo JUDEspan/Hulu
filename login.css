@@ -1,0 +1,26 @@
+body{
+    background-image: url(Images/Screenshot\ 2023-09-28\ 154257.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh
+}
+#login{
+    /* border: 1px solid black; */
+    width: 450px;
+    height: 90vh;
+    margin: 65px 450px;
+    font-size: 12px;
+    padding: 40px 20px;
+    background-color: white;
+}
+#up{
+    font-size: 22px;
+}
+#email{
+    width: 400px;
+}
+#btn{
+    width: 400px;
+    background-color: #93959A;
+}
